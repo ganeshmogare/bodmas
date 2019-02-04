@@ -11,8 +11,9 @@ bodmas has 4 methods
 * `bodmas.multiply(a,b)` returns product of a nd b
 * `bodmas.devide(a,b)` returns quotient od a and b
 
-Examples
-` var bodmas = require('bodmas');
+Examples:
+
+` var bodmas = require('bodmas'); 
   var a = 100.48;
   var b = 30;
   var sum = parseFloat(bodmas.add(a,b));// will return 130.48
