@@ -1,24 +1,4 @@
-# Blog: NodeJS Addons Example
 
-This repo contains the example code for the blog post:
-
-**Beginners guide to writing NodeJS Addons using C++ and N-API (node-addon-api)**
-
-
-*The blog link :*
-
-[https://medium.com/@atulanand94/beginners-guide-to-writing-nodejs-addons-using-c-and-n-api-node-addon-api-9b3b718a9a7f](https://medium.com/@atulanand94/beginners-guide-to-writing-nodejs-addons-using-c-and-n-api-node-addon-api-9b3b718a9a7f)
-
-
-To run the example:
-
-- `git clone https://github.com/master-atul/bodmas`
-- `npm install`
-- `npm run build` //This is mostly not needed. But just in case
-- `node index.js`
-
-
-Hope this helps someone 🎉🌮
 
 # bodmas
 bodmas is a nodemodule using which you can do the simple maths operations like addition ,subtraction ,multiplication and devision.
@@ -45,3 +25,9 @@ bodmas has 4 methods
   ```
   
   This module is written mainly to avoid the floating point value errors in javascript.
+
+  *Reference link :*
+
+[https://medium.com/@atulanand94/beginners-guide-to-writing-nodejs-addons-using-c-and-n-api-node-addon-api-9b3b718a9a7f](https://medium.com/@atulanand94/beginners-guide-to-writing-nodejs-addons-using-c-and-n-api-node-addon-api-9b3b718a9a7f)
+
+Hope this helps someone 🎉🌮
