@@ -1,7 +1,7 @@
 #include <napi.h>
-#include "Samples/functionexample.h"
-#include "Samples/classexample.h"
-#include "Samples/simpleMathFunctions.h"
+#include "src/functionexample.h"
+#include "src/classexample.h"
+#include "src/simpleMathFunctions.h"
 
 Napi::Object InitAll(Napi::Env env, Napi::Object exports) {
   // functionexample::Init(env, exports);
