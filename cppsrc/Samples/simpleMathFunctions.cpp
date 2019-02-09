@@ -45,9 +45,9 @@ int getPrecisionMultiplier(float a,float b) {
     //     biggestDecimal = Math.max(getDecimalLength(num), biggestDecimal);
     // });
      biggestDecimal =std::max(numberOfDecimals(a), biggestDecimal);// Math.max(getDecimalLength(a), biggestDecimal);
-      cout <<" biggestDecimal "<< biggestDecimal <<endl;
+    //   cout <<" biggestDecimal "<< biggestDecimal <<endl;
       biggestDecimal = std::max(numberOfDecimals(b), biggestDecimal);
-      cout <<" biggestDecimal "<< biggestDecimal <<endl;
+    //   cout <<" biggestDecimal "<< biggestDecimal <<endl;
     return pow(10, biggestDecimal + addNZeros);
 }
 
@@ -62,7 +62,7 @@ std::string simpleMathFunctions::add(float a, float b){
 float c = a+b;
 out << c;
 sum = out.str();
-cout << "c= "<< sum<< endl;
+// cout << "c= "<< sum<< endl;
 return sum;
 // return a+b;
 }
@@ -70,7 +70,7 @@ return sum;
 float simpleMathFunctions::addN(float a, float b){
 
 float c = a+b;
-cout << "c= "<< c<< endl;
+// cout << "c= "<< c<< endl;
 float d;
 d = c+1-1;
 return d;
@@ -103,7 +103,7 @@ Napi::String simpleMathFunctions::AddWrapped(const Napi::CallbackInfo& info) {
     Napi::Number second = info[1].As<Napi::Number>();
 
     std::string returnValue = simpleMathFunctions::add(first.FloatValue(), second.FloatValue());
-    cout << " hello ganesh =" << returnValue << endl;
+    // cout << " hello ganesh =" << returnValue << endl;
     return Napi::String::New(env, returnValue);
 }
 
@@ -117,7 +117,7 @@ Napi::Number simpleMathFunctions::AddNWrapped(const Napi::CallbackInfo& info) {
     Napi::Number second = info[1].As<Napi::Number>();
 
     float returnValue = simpleMathFunctions::addN(first.FloatValue(), second.FloatValue());
-    cout << " hello ganesh =" << returnValue << endl;
+    // cout << " hello ganesh =" << returnValue << endl;
     return Napi::Number::New(env, returnValue);
 }
 
