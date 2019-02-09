@@ -1,4 +1,4 @@
-// const bodmas = require('./build/Release/bodmas.node');
+const bodmas = require('./build/Release/bodmas.node');
 // console.log('addon',bodmas);
 // console.log('add ', bodmas.add(100.48, 30));
 // console.log('addN ', bodmas.addN(100.48, 30));
@@ -15,4 +15,4 @@
 // console.log('Testing class initial value for derived instance');
 // console.log(newFromExisting.getValue());
 
-// module.exports = bodmas;
+module.exports = bodmas;
