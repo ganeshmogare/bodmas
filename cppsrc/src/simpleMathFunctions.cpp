@@ -2,6 +2,7 @@
 #include <iostream>
 #include <math.h>
 #include <sstream>
+#include <algorithm>
 using namespace std;
 // int getDecimalLength(float n) {
 //     // num = num.toString();
