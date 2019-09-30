@@ -25,9 +25,4 @@ bodmas has 4 methods
   ```
   
   This module is written mainly to avoid the floating point value errors in javascript.
-
-  *Reference link :*
-
-[https://medium.com/@atulanand94/beginners-guide-to-writing-nodejs-addons-using-c-and-n-api-node-addon-api-9b3b718a9a7f](https://medium.com/@atulanand94/beginners-guide-to-writing-nodejs-addons-using-c-and-n-api-node-addon-api-9b3b718a9a7f)
-
 Hope this helps someone 🎉🌮
